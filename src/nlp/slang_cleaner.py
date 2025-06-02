@@ -22,7 +22,7 @@ SLANG_DICT = {
     "pls": "please"
 }
 
-def normalize_slang(text: str) -> str:
+def clean_slang(text: str) -> str:
     # Lowercase and remove extra spaces
     text = text.lower().strip()
 
